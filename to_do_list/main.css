@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.form-control{
+    width: 600px;
+}
+.main{
+    position: relative;
+    top: 90px;
+    left: 500px;
+}
+
+h1{
+   
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.btn-primary {
+    background-color: #ff6347; /* Coral color */
+    border-color: #ff6347; /* Matching border color */
+    color: #fff; 
+    position: relative;
+   
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #dc3545; /* Darker coral color on hover or focus */
+    border-color: #dc3545; /* Matching border color */
+    color: #fff; /* Text color on hover or focus */
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
